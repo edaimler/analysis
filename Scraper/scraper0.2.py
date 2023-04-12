@@ -18,8 +18,8 @@ import time
 import requests
 
 
-url = 'https://georgia.intelligrants.com/login2.aspx'
-url2 = 'https://georgia.intelligrants.com/Menu_Person2.aspx?NavItem1=1'
+url = 'insert url'
+url2 = 'insert url 2'
 
 
 gohsform = form_elements.gohsform
@@ -58,18 +58,7 @@ with requests.Session() as s:
     progressreport = s.post(progressurl, data = formdata2) 
     time.sleep(10)
     '''
-    orgs = ["GA-2021-F.A.S.T. 405c M3DA-018",
-        "GA-2021-F.A.S.T. 405d Impaired Lo-017",
-        "GA-2021-F.A.S.T. 405f M9X-019",
-        "GA-2021-402 CP-009",
-        "GA-2021-F.A.S.T. 402 OP-008",
-        "GA-2021-F.A.S.T. 405c M3DA-005",
-        "GA-2021-F.A.S.T. 405c M3DA-046",
-        "GA-2021-F.A.S.T. 405c M3DA-033",
-        "GA-2021-F.A.S.T. 402 SC-036",
-        "GA-2021-F.A.S.T. 405d Impaired Lo-037",
-        "GA-2021-F.A.S.T. 402 PT-012",
-        "GA-2021-F.A.S.T. 405d Impaired Lo-013",
+    orgs = ["Insert org list",
         ]
     '''
     for i in orgs:
