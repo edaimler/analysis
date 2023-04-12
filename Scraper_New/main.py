@@ -24,11 +24,11 @@ import re
 import time
 import requests
 
-orgs = ["GA-2022-402 OP-039-C3"
+orgs = ["insert orgs"
         ]
 
 gohsform = form_elements.gohsform
-url = 'https://georgia.intelligrants.com/login2.aspx'
+url = 'insert url'
 
 with requests.Session() as s:
 

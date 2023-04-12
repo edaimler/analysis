@@ -3,7 +3,7 @@ import pandas
 import pdb
 
 def save_file(doc_dict, data_frame, frame_name):
-    path = Path('F:\TSREG\Grantee Data')
+    path = Path('\Grantee Data')
     year = path / doc_dict['year'] 
     prog = year / 'Progress Reports'
     claim = year / 'Claims'

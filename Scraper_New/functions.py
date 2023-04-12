@@ -46,7 +46,7 @@ organization = form_elements.organization
 doctitle = form_elements.doctitle
 option = form_elements.option
 
-url = 'https://georgia.intelligrants.com/login2.aspx'
+url = 'insert url'
 
 def fetch(session, url, data=None):
     if data is None:
@@ -60,12 +60,12 @@ def fetch(session, url, data=None):
 
 def login(session):
     response = functions.fetch(session, url)
-    user = functions.enter_field(response, gohsform, username, "edaimler1")  # update formdata with username
+    user = functions.enter_field(response, gohsform, username, "username")  # update formdata with username
     newuser = {
         username['name']: user[username['name']]
     }
-    pw = functions.enter_field(response, gohsform, password, "Password01")  # update formdata with password
-    pw['txtPassword'] = "Password01"
+    pw = functions.enter_field(response, gohsform, password, "password")  # update formdata with password
+    pw['txtPassword'] = "password"
     newpw = {
         password['name']: pw[password['name']]
     }

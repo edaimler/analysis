@@ -22,7 +22,7 @@ import requests
 
 
 gohsform = form_elements.gohsform
-url = 'https://georgia.intelligrants.com/login2.aspx'
+url = 'insert url'
 
 
 def open_grants(session, response):

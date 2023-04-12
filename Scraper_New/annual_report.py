@@ -30,21 +30,7 @@ import time
 import requests
         #"    "GA-2021-F.A.S.T. 405c M3DA-077",
         #
-orgs = ["GA-2021-402 AL-035", 
-        "GA-2021-402 CP-084", 
-        "GA-2021-402 PA-032", 
-        "GA-2021-F.A.S.T. 402 OP-085", 
-        "GA-2021-F.A.S.T. 402 PM-030", 
-        "GA-2021-F.A.S.T. 402 PS-205", 
-        "GA-2021-F.A.S.T. 402 PT-011", 
-        "GA-2021-F.A.S.T. 402 TSP-025", 
-        "GA-2021-F.A.S.T. 405b M1*CP-086", 
-        "GA-2021-F.A.S.T. 405b M1*DD-193", 
-        "GA-2021-F.A.S.T. 405c M3DA-064", 
-        "GA-2021-F.A.S.T. 405d Impaired Lo-031", 
-        "GA-2021-F.A.S.T. 405f M9X-028", 
-        "GA-2021-F.A.S.T. 405h FHX-027", 
-        "GA-2021-STR Share the Road-029", 
+orgs = ["insert org" 
         ]
 
 master_doc = Document_compose('annual_report_docs/blank.docx')
@@ -77,7 +63,7 @@ def parse_grant_name(grant_name):
         
 
 gohsform = form_elements.gohsform
-url = 'https://georgia.intelligrants.com/login2.aspx'
+url = 'insert url'
 
 #grant_name = orgs[1]
 

@@ -22,7 +22,7 @@ import time
 import requests
 
 gohsform = form_elements.gohsform
-url = 'https://georgia.intelligrants.com/login2.aspx'
+url = 'insert url'
 
 def open_claims(session, response):
     link = BeautifulSoup(response.text, 'html.parser').find('a', href="Menu_Person2.aspx?NavItem1=7&NavItemID1=76550") # TODO: change href to id, because I think this href is unique to one grantee
